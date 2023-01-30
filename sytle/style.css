@@ -39,6 +39,7 @@ header a:hover{
 }
 
 section{
+    display: block;
     font-family: var(--fonte-texto);
     font-weight: 100;
     padding-top: 10vh;
@@ -64,7 +65,7 @@ section.imagem{
 section.imagem > p{
     display: inline-block;
     padding: 5px;
-    max-width: 80vh;
+    min-width: 30%;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
 
